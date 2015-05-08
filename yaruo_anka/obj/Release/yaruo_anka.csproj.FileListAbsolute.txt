@@ -1,0 +1,10 @@
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\bin\Release\yaruo_anka.exe.config
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\bin\Release\yaruo_anka.exe
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\bin\Release\yaruo_anka.pdb
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\obj\Release\yaruo_anka.Form1.resources
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\obj\Release\yaruo_anka.Form2.resources
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\obj\Release\yaruo_anka.Properties.Resources.resources
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\obj\Release\yaruo_anka.csproj.GenerateResource.Cache
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\obj\Release\yaruo_anka.exe
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\obj\Release\yaruo_anka.pdb
+C:\Users\nama_000\Documents\Visual Studio 2012\Projects\yaruo_anka\obj\Release\yaruo_anka.csprojResolveAssemblyReference.cache
