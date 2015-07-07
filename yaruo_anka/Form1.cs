@@ -741,7 +741,15 @@ namespace yaruo_anka
         {
 
         }
-        
-       
+
+        ListViewItem ChangeToListViewItem()
+        {
+            PlayerData data = new PlayerData("", 0, new List<int>());
+            ListViewItem item = new ListViewItem(data.GetStringListData());
+            
+            
+            return item;
+
+        }
     }
 }
