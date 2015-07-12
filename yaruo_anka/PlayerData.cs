@@ -37,7 +37,11 @@ using Statas = System.Collections.Generic.List<int>;
             _StatasList = data;
         }
 
-        
+        public int GetID()
+        {
+            return _PlimaryNumber;
+        }
+
         //Player名取得
         public string GetName()
         {
@@ -49,7 +53,9 @@ using Statas = System.Collections.Generic.List<int>;
         {
             if (index < 0) return -1;
             if (index > _StatasList.Count) return 0;
-            return index==0?_Level:_StatasList.ElementAt(index-1);
+            int param=index==0?_Level:_StatasList.ElementAt(index-1);
+
+            return param;
         }
         //パラメータ編集時に使用
         //intに変換する際をどうするか検討

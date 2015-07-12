@@ -12,6 +12,7 @@ namespace yaruo_anka
 {
     public partial class Form1 : Form
     {
+        
         private Data data_=new Data();
         Form2 form2;//= new Form2();
         string[] charactorStete_;

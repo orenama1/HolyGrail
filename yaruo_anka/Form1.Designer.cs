@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup7 = new System.Windows.Forms.ListViewGroup("メイン", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup8 = new System.Windows.Forms.ListViewGroup("サブ", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup9 = new System.Windows.Forms.ListViewGroup("メイン", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup10 = new System.Windows.Forms.ListViewGroup("サブ", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup11 = new System.Windows.Forms.ListViewGroup("メイン", System.Windows.Forms.HorizontalAlignment.Left);
-            System.Windows.Forms.ListViewGroup listViewGroup12 = new System.Windows.Forms.ListViewGroup("サブ", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup1 = new System.Windows.Forms.ListViewGroup("メイン", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("サブ", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup3 = new System.Windows.Forms.ListViewGroup("メイン", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup4 = new System.Windows.Forms.ListViewGroup("サブ", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup5 = new System.Windows.Forms.ListViewGroup("メイン", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup6 = new System.Windows.Forms.ListViewGroup("サブ", System.Windows.Forms.HorizontalAlignment.Left);
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -100,13 +100,13 @@
             this.columnHeader2});
             this.listView1.FullRowSelect = true;
             this.listView1.GridLines = true;
-            listViewGroup7.Header = "メイン";
-            listViewGroup7.Name = "listViewGroup1";
-            listViewGroup8.Header = "サブ";
-            listViewGroup8.Name = "listViewGroup2";
+            listViewGroup1.Header = "メイン";
+            listViewGroup1.Name = "listViewGroup1";
+            listViewGroup2.Header = "サブ";
+            listViewGroup2.Name = "listViewGroup2";
             this.listView1.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup7,
-            listViewGroup8});
+            listViewGroup1,
+            listViewGroup2});
             this.listView1.HoverSelection = true;
             this.listView1.Location = new System.Drawing.Point(12, 31);
             this.listView1.Name = "listView1";
@@ -338,13 +338,13 @@
             this.columnHeader8});
             this.listView2.FullRowSelect = true;
             this.listView2.GridLines = true;
-            listViewGroup9.Header = "メイン";
-            listViewGroup9.Name = "listViewGroup1";
-            listViewGroup10.Header = "サブ";
-            listViewGroup10.Name = "listViewGroup2";
+            listViewGroup3.Header = "メイン";
+            listViewGroup3.Name = "listViewGroup1";
+            listViewGroup4.Header = "サブ";
+            listViewGroup4.Name = "listViewGroup2";
             this.listView2.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup9,
-            listViewGroup10});
+            listViewGroup3,
+            listViewGroup4});
             this.listView2.HoverSelection = true;
             this.listView2.Location = new System.Drawing.Point(12, 180);
             this.listView2.Name = "listView2";
@@ -370,13 +370,13 @@
             this.columnHeader14});
             this.listView.FullRowSelect = true;
             this.listView.GridLines = true;
-            listViewGroup11.Header = "メイン";
-            listViewGroup11.Name = "listViewGroup1";
-            listViewGroup12.Header = "サブ";
-            listViewGroup12.Name = "listViewGroup2";
+            listViewGroup5.Header = "メイン";
+            listViewGroup5.Name = "listViewGroup1";
+            listViewGroup6.Header = "サブ";
+            listViewGroup6.Name = "listViewGroup2";
             this.listView.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup11,
-            listViewGroup12});
+            listViewGroup5,
+            listViewGroup6});
             this.listView.HoverSelection = true;
             this.listView.Location = new System.Drawing.Point(420, 31);
             this.listView.Name = "listView";
@@ -404,7 +404,7 @@
             this.groupBox2222.Controls.Add(this.radioButton10);
             this.groupBox2222.Controls.Add(this.radioButton11);
             this.groupBox2222.Controls.Add(this.radioButton12);
-            this.groupBox2222.Location = new System.Drawing.Point(402, 151);
+            this.groupBox2222.Location = new System.Drawing.Point(199, 371);
             this.groupBox2222.Name = "groupBox2222";
             this.groupBox2222.Size = new System.Drawing.Size(260, 34);
             this.groupBox2222.TabIndex = 41;

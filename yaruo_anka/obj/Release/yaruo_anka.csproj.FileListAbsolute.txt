@@ -18,3 +18,8 @@ C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\yaruo_anka.Form1.re
 C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\yaruo_anka.Form2.resources
 C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\yaruo_anka.Properties.Resources.resources
 C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\yaruo_anka.csproj.GenerateResource.Cache
+C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\UserControl1.baml
+C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\UserControl1.g.cs
+C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\yaruo_anka_Content.g.cs
+C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\yaruo_anka_MarkupCompile.cache
+C:\Users\nama_000\Documents\HolyGrail\yaruo_anka\obj\Release\yaruo_anka.g.resources
