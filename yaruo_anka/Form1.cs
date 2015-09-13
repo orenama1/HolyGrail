@@ -752,5 +752,10 @@ namespace yaruo_anka
             return item;
 
         }
+
+        private void listView_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

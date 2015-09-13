@@ -50,6 +50,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controller.cs" />
     <Compile Include="CSV.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="DataList.cs" />

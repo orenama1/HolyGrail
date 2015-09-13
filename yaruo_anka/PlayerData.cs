@@ -36,6 +36,15 @@ using Statas = System.Collections.Generic.List<int>;
             _Level = level;
             _StatasList = data;
         }
+        //dataをテキストから数値に変えたほうがいいか検討
+        public PlayerData(string name, string level, List<string> data)
+        {
+            _PlimaryNumber = MaxPlayerCounter;
+            PlayerPlus();
+            _Name = name;
+            _Level = int.Parse(level);
+            _StatasList = data.Select(x=>int.Parse(x)).ToList();
+        }
 
         public int GetID()
         {

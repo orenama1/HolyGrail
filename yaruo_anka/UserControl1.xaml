@@ -5,42 +5,50 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" d:DesignWidth="516.61" Height="410.034">
     <Grid>
-        <ListView HorizontalAlignment="Left" Height="88" Margin="10,40,0,0" VerticalAlignment="Top" Width="333" SelectionChanged="ListView_SelectionChanged">
+        <ListView x:Name="PartyList1" HorizontalAlignment="Left" Height="88" Margin="10,40,0,0" VerticalAlignment="Top" Width="333" SelectionChanged="ListView_SelectionChanged">
+            <ListView.GroupStyle>
+                <GroupStyle/>
+                <GroupStyle AlternationCount="1" HeaderStringFormat=""/>
+            </ListView.GroupStyle>
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView HorizontalAlignment="Left" Height="88" Margin="10,163,0,0" VerticalAlignment="Top" Width="333">
+        <ListView x:Name="PartyList2" HorizontalAlignment="Left" Height="88" Margin="10,163,0,0" VerticalAlignment="Top" Width="333">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView HorizontalAlignment="Left" Height="209" Margin="408,10,0,0" VerticalAlignment="Top" Width="99" SelectionChanged="ListView_SelectionChanged_1">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
-        </ListView>
-        <Button Content="&lt;&lt;" HorizontalAlignment="Left" Margin="360,40,0,0" VerticalAlignment="Top" Width="43"/>
-        <Button Content="X" HorizontalAlignment="Left" Margin="360,80,0,0" VerticalAlignment="Top" Width="43"/>
-        <Button Content="&lt;&lt;" HorizontalAlignment="Left" Margin="360,163,0,0" VerticalAlignment="Top" Width="43"/>
-        <Button Content="X" HorizontalAlignment="Left" Margin="360,200,0,0" VerticalAlignment="Top" Width="43"/>
-        <GroupBox Header="1st" HorizontalAlignment="Left" Margin="10,256,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.072" Content="" Width="75"/>
-        <GroupBox Header="2nd" HorizontalAlignment="Left" Margin="10,298,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.072" Content=""/>
-        <GroupBox Header="3rd" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.072" Content=""/>
-        <RichTextBox HorizontalAlignment="Left" Height="144" Margin="283,256,0,0" VerticalAlignment="Top" Width="224" TextChanged="RichTextBox_TextChanged">
+        <ListView x:Name="CharactorList" HorizontalAlignment="Left" Height="172" Margin="408,10,0,0" VerticalAlignment="Top" Width="99" SelectionChanged="ListView_SelectionChanged_1" SelectionMode="Single" ScrollViewer.HorizontalScrollBarVisibility="Disabled"/>
+        <Button Content="&lt;&lt;" HorizontalAlignment="Left" Margin="360,40,0,0" VerticalAlignment="Top" Width="43" Click="GetPlayer"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="360,80,0,0" VerticalAlignment="Top" Width="43" Click="Cansel"/>
+        <Button Content="&lt;&lt;" HorizontalAlignment="Left" Margin="360,163,0,0" VerticalAlignment="Top" Width="43" Click="Button_Click"/>
+        <Button Content="X" HorizontalAlignment="Left" Margin="360,200,0,0" VerticalAlignment="Top" Width="43" Click="Button_Click_1"/>
+        <GroupBox x:Name="SelectParam1" Header="1st" HorizontalAlignment="Left" Margin="10,256,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.072" Width="75">
+            <RadioButton Content="ステ" HorizontalAlignment="Left" Margin="10,0,0,0" Checked="RadioButton_Checked"/>
+        </GroupBox>
+        <GroupBox x:Name="SelectParam2" Header="2nd" HorizontalAlignment="Left" Margin="10,298,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.072" Width="75">
+            <RadioButton Content="ステ" HorizontalAlignment="Left" Margin="10,0,0,0" Checked="RadioButton_Checked_1"/>
+        </GroupBox>
+        <GroupBox x:Name="SelectParam3" Header="3rd" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.072" Width="75">
+            <RadioButton Content="ステ" HorizontalAlignment="Left" Margin="10,0,0,0" Checked="RadioButton_Checked_2"/>
+        </GroupBox>
+        <RichTextBox x:Name="ResultText" HorizontalAlignment="Left" Height="144" Margin="283,256,0,0" VerticalAlignment="Top" Width="224" TextChanged="RichTextBox_TextChanged">
             <FlowDocument/>
         </RichTextBox>
         <Button Content="勝負！" HorizontalAlignment="Left" Margin="10,382,0,0" VerticalAlignment="Top" Width="75"/>
         <Label Content="サブ1/X倍" HorizontalAlignment="Left" Margin="147,379,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="209,383,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="58"/>
+        <TextBox x:Name="SubPatryState" HorizontalAlignment="Left" Height="23" Margin="209,383,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="58" TextChanged="TextBox_TextChanged"/>
         <Label Content="プレイヤー" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.805,0.08"/>
         <Label Content="エネミー" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Delete" Content="削除" HorizontalAlignment="Left" Margin="460,187,0,0" VerticalAlignment="Top" Width="47" Click="Delete_Click"/>
+        <Button x:Name="Create" Content="生成" HorizontalAlignment="Left" Margin="408,187,0,0" VerticalAlignment="Top" Width="47" Click="Create_Click"/>
+        <Button Content="Bなんか&#xD;&#xA;なんか" HorizontalAlignment="Left" Margin="460,211,0,0" VerticalAlignment="Top" Width="47"/>
+        <Button x:Name="Change" Content="編集" HorizontalAlignment="Left" Margin="408,211,0,0" VerticalAlignment="Top" Width="47" Click="Change_Click"/>
 
     </Grid>
 </UserControl>
